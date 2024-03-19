@@ -55,9 +55,9 @@ and improve mobility for patients in hospital environments.The autonomous wheel
 
 ❑ Team members :
 
-•
-•
-•
-•
-•
+• Zohier Raafat Hassan(leader)
+• Rawan Ebrahem desoky
+• Doaa Mohamed Ebrahem
+• Asmaa Osama Eid
+• Ziad Mohammed fathi
  
