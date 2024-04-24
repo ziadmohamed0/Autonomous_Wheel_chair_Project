@@ -39,15 +39,12 @@ and improve mobility for patients in hospital environments.The autonomous wheel
 
 ❑ components : 
 
-• 1 * Atmega32 
+• 1 * ESP8266 
 • 1 * Arduino uno 
 • 4 * IR Sensors
 • 1 * UltraSonic Sensors
 • 2 * Motors 
-• 2 * 7 Segments
-• 2 * Bluetooth Module (HC-05)
 • 1 * H-Bridge (L298N)
-• 1 * Usb-TTL
 • Wires
 • Battery
 
