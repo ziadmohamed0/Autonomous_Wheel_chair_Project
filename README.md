@@ -25,15 +25,39 @@ and improve mobility for patients in hospital environments.The autonomous wheel
 
 ❑ Mechanism of Action :
 
-1- The user chooses the chair number and destination through the system interface.
-
-2- Collect the necessary calculations using the ultrasonic sensor and the IR sensor to guide the chair.
-
-3- The system extracts information about the desired destination, signaling the engines to start moving.
-
-4- The chair moves at a predetermined speed. If an obstacle is detected at a distance of one meter, the ultrasonic sensor sends a signal to stop the engines and sounds an alarm until the path is clear.
-
-5- When you reach the desired room, the IR sensor installed on the wall sends a signal to the motherboard, to ensure that the chair is connected to the intended location.
+1. Start
+2. Run the program
+3. Open the web page
+4. Choose a room (pharmacy, X-ray lab, laboratory)
+5. Send room selection data to the server (esp8266)
+6. If the X-ray room is chosen:
+    - Move motors straight for 4 seconds
+    - Stop motors
+    - Turn right motor for 1 second (facing right)
+    - Stop motors
+    - Move forward for 1 second
+    - Stop motors
+    - Move forward for 2 seconds
+    - Stop motors
+7. If the laboratory room is chosen:
+    - Move motors straight for 4 seconds
+    - Stop motors
+    - Turn left motor for 1 second (facing left)
+    - Stop motors
+    - Move forward for 1 second
+    - Stop motors
+    - Move forward for 2 seconds
+    - Stop motors
+8. If the pharmacy room is chosen:
+    - Move motors straight for 2 seconds
+    - Stop motors
+    - Turn right motor for 2 seconds (facing right)
+    - Stop motors
+    - Move forward for 4 seconds
+    - Stop motors
+9. When the chair arrives in the room:
+    - Signal the room's green hand for lighting
+10. End
 
 --------------------------------------------------------------------------------------------
 
