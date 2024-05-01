@@ -79,8 +79,8 @@ void handleSend() {
     }
     else
     {
-       digitalWrite(BUZZER, LOW);
-          digitalWrite(IN_1_L, HIGH);
+    digitalWrite(BUZZER, LOW);
+    digitalWrite(IN_1_L, HIGH);
     digitalWrite(IN_2_L, LOW);
     digitalWrite(IN_3_R, HIGH);
     digitalWrite(IN_4_R, LOW);
